@@ -4,6 +4,7 @@
     <title>Oefenen met Backbone</title>
     <meta name="description" content="Oefenen met het DOM"/>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/global.css" type="text/css" />
     <script data-main="js/main" src="js/libs/require.js"></script>
 </head>
 <body>
@@ -13,8 +14,8 @@
         <div id='message'></div>
         <h1>What todo today</h1>
         <form>
-            <input type="text" id='todo-input' value='new item' />
-            <input type='submit' id='sbm-button' value="add item" />
+            <input type="text" id='todo-input' class="input" placeholder="new item" value='' />
+            <input type='submit' id='sbm-button' class="button" value="add item" />
         </form>
     </div>
     <div id="content"></div>
